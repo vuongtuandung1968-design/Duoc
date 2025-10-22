@@ -1962,22 +1962,22 @@ local Window = Rayfield:CreateWindow({
     },
     KeySystem = false,
 })
--- 🪟 Tạo các Tab chính
-local mainTab        = Window:CreateTab("Farm", 4483362458)
-local settingsTab    = Window:CreateTab("Config", 4483362458)
-local meleeTab       = Window:CreateTab("Fighting Style", 4483362458)
-local questsTab      = Window:CreateTab("Items Farm", 4483362458)
-local newTab         = Window:CreateTab("New Events", 4483362458)
-local seaEventTab    = Window:CreateTab("Sea Events", 4483362458)
-local mirageTab      = Window:CreateTab("Mirage + RaceV4", 4483362458)
-local dragoTab       = Window:CreateTab("Drago Dojo", 4483362458)
-local prehistoricTab = Window:CreateTab("Prehistoric", 4483362458)
-local raidsTab       = Window:CreateTab("Raid", 4483362458)
-local combatTab      = Window:CreateTab("Combat PVP", 4483362458)
-local travelTab      = Window:CreateTab("Teleport", 4483362458)
-local fruitTab       = Window:CreateTab("Fruits", 4483362458)
-local shopTab        = Window:CreateTab("Shop", 4483362458)
-local miscTab        = Window:CreateTab("Misc", 4483362458)
+local Main        = Window:AddTab({ Title = "Farm", Icon = "" })
+local Settings    = Window:AddTab({ Title = "Config", Icon = "" })
+local Melee       = Window:AddTab({ Title = "Fighting Style", Icon = "" })
+local Quests      = Window:AddTab({ Title = "Items Farm", Icon = "" })
+local New         = Window:AddTab({ Title = "New Events", Icon = "" })
+local SeaEvent    = Window:AddTab({ Title = "Sea Events", Icon = "" })
+local Mirage      = Window:AddTab({ Title = "Mirage + RaceV4", Icon = "" })
+local Drago       = Window:AddTab({ Title = "Drago Dojo", Icon = "" })
+local Prehistoric = Window:AddTab({ Title = "Prehistoric", Icon = "" })
+local Raids       = Window:AddTab({ Title = "Raid", Icon = "" })
+local Combat      = Window:AddTab({ Title = "Combat PVP", Icon = "" })
+local Travel      = Window:AddTab({ Title = "Teleport", Icon = "" })
+local Fruit       = Window:AddTab({ Title = "Fruits", Icon = "" })
+local Shop        = Window:AddTab({ Title = "Shop", Icon = "" })
+local Misc        = Window:AddTab({ Title = "Misc", Icon = "" })
+
 local FarmLevel = Tabs.Main:AddToggle("FarmLevel", {
     Title = "Auto Farm Level",
     Description = "",
