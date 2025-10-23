@@ -2017,14 +2017,13 @@ QuestNeta = function()
         [6] = PosQ
     }
 end
-Farm:CreateButton({
-	Name = "Aimbot",
-	Callback = function()
-		Rayfield:Notify({
-			Title = "HUD",
-			Content = "Setting up aimbot!",
-			Duration = 4
-		})
+local Toggle = Tabs.Farm:CreateToggle({
+    Name = "Auto Farm Level",
+    CurrentValue = false,
+    Flag = "FarmLevel",
+    Callback = function(Value)
+        if Value then
+})
 FarmLevel:OnChanged(function(Value)
     _G.Level = Value
 end)
