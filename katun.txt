@@ -296,7 +296,7 @@ L_1_[15]["Size"] = UDim2["new"](1, -10, .5, 0)
 L_1_[15]["Position"] = UDim2["new"](.5, 0, 0, 2)
 L_1_[15]["AnchorPoint"] = Vector2["new"](.5, 0)
 L_1_[15]["BackgroundTransparency"] = 1
-L_1_[15]["Text"] = "Kaito Hub - Kaitun"
+L_1_[15]["Text"] = "KatunMeo Hub - Kaitun"
 L_1_[15]["TextColor3"] = Color3["fromRGB"](255, 0, 0)
 L_1_[15]["TextSize"] = 13
 L_1_[15]["Font"] = Enum["Font"]["GothamBold"]
@@ -347,7 +347,7 @@ Avatar.Size = UDim2.new(0, 140, 0, 160)
 Avatar.Position = UDim2.new(0, 10, 0.5, 0)
 Avatar.AnchorPoint = Vector2.new(0, 0.5)
 Avatar.BackgroundTransparency = 1
-Avatar.Image = "rbxassetid://1234567890" -- thay ?nh
+Avatar.Image = "rbxassetid://84119275293203" -- thay ?nh
 Avatar.Parent = MainUI
 
 -- TITLE
@@ -355,7 +355,7 @@ local Title = Instance.new("TextLabel")
 Title.Size = UDim2.new(1, -160, 0, 40)
 Title.Position = UDim2.new(0, 160, 0, 10)
 Title.BackgroundTransparency = 1
-Title.Text = "Kaito Hub"
+Title.Text = "animeXmeo Hub"
 Title.TextColor3 = Color3.fromRGB(255,255,255)
 Title.TextSize = 18
 Title.Font = Enum.Font.GothamBold
